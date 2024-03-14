@@ -44,3 +44,49 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+/* Estilos adicionais para a seção "Contato" */
+
+#contato {
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#contato form {
+	margin-top: 20px;
+}
+
+#contato label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+#contato textarea {
+	resize: vertical; /* Permite redimensionar apenas verticalmente */
+}
+
+#contato button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+#contato button:hover {
+	background-color: #555;
+}
