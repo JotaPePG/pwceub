@@ -1,5 +1,7 @@
 /* Estilos CSS no arquivo styles.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap')
+
 body {
 	font-family: Arial, sans-serif;
 	background-color: #f0f0f0;
@@ -11,15 +13,28 @@ header {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
+	border-radius: 15px;
+	margin: 20px;
 }
 
 header h1 {
 	margin: 0;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h2 {
+	font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 nav ul {
 	list-style-type: none;
 	padding: 0;
+	text-align: end;
 }
 
 nav ul li {
