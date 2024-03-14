@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exemplo de HTML</title>
+    <style>
+        /* Estilos CSS embutidos */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <h1>Teste</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis alias fugit mollitia nisi cum, iste sit omnis consequuntur suscipit deleniti, quasi, exercitationem quisquam expedita laborum minus sequi molestias rerum distinctio.</p>
+
+    <!-- Tag <header> -->
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Tag <section> -->
+    <section id="home">
+        <h2>Seja bem-vindo!</h2>
+        <p>Este é um exemplo simples de um site HTML.</p>
+    </section>
+
+    <!-- Tag <section> -->
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Este site foi criado para demonstrar algumas tags e funções básicas do HTML.</p>
+    </section>
+
+    <!-- Tag <section> -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato através do formulário abaixo:</p>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Tag <footer> -->
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
